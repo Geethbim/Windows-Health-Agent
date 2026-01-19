@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Windows Health Monitor</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Windows Health Monitor</h1>
+    <p class="muted">Live machine health + derived alerts (in-memory).</p>
+    <div class="row">
+      <button id="refresh">Refresh</button>
+      <span class="muted" id="status">Idle</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Machines</h2>
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Machine</th>
+              <th>Last Seen (UTC)</th>
+              <th>OS</th>
+              <th>Uptime</th>
+              <th>CPU</th>
+              <th>Memory</th>
+              <th>Disks</th>
+              <th>Services</th>
+              <th>Fans</th>
+              <th>Temps</th>
+            </tr>
+          </thead>
+          <tbody id="machines"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Alerts</h2>
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Time (UTC)</th>
+              <th>Machine</th>
+              <th>Severity</th>
+              <th>Code</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="alerts"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

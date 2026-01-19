@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHealthMonitor.Server", "WindowsHealthMonitor.Server\WindowsHealthMonitor.Server.csproj", "{55E576A1-CC80-4435-8F35-295F23EA9E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHealthMonitor.Agent", "WindowsHealthMonitor.Agent\WindowsHealthMonitor.Agent.csproj", "{4CFB4CB0-0258-49BD-A52C-4EAC3CF2E2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHealthMonitor.Contracts", "WindowsHealthMonitor.Contracts\WindowsHealthMonitor.Contracts.csproj", "{65C66491-E62C-49AB-91AD-39838EC6E4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E576A1-CC80-4435-8F35-295F23EA9E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E576A1-CC80-4435-8F35-295F23EA9E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E576A1-CC80-4435-8F35-295F23EA9E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E576A1-CC80-4435-8F35-295F23EA9E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFB4CB0-0258-49BD-A52C-4EAC3CF2E2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFB4CB0-0258-49BD-A52C-4EAC3CF2E2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFB4CB0-0258-49BD-A52C-4EAC3CF2E2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFB4CB0-0258-49BD-A52C-4EAC3CF2E2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C66491-E62C-49AB-91AD-39838EC6E4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C66491-E62C-49AB-91AD-39838EC6E4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C66491-E62C-49AB-91AD-39838EC6E4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C66491-E62C-49AB-91AD-39838EC6E4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
