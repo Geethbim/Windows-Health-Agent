@@ -1,4 +1,4 @@
-# Windows Health Monitor (1-day demo)
+# Windows Health Monitor
 
 Two-app C#/.NET 8 demo:
 
